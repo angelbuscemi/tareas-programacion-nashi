@@ -1,0 +1,59 @@
+<title>formulario ejemplo</title>
+<section>
+    <h2>Formulario de relevamiento de hardware</h2>
+
+    <form>
+      <h3>Datos del equipo</h3>
+      <label for="nombre-equipo">Nombre o código del equipo</label><br>
+      <input type="text" name="nombre-equipo" placeholder="elpepe"><br>
+      <label for="fecha-relevamiento">Fecha del relevamiento</label><br>
+      <input type="date" name="fecha-relevamiento"><br>
+      <label for="responsable">Responsable del relevamiento</label><br>
+      <input type="text" name="responsable" placeholder="Nombre y apellido"><br>
+      <label for="ubicacion">Ubicación del equipo</label><br>
+      <input type="text" name="ubicacion" placeholder="Aula 3"><br>
+
+      <h3>Componentes de hardware</h3>
+      <label for="procesador">Procesador (CPU)</label><br>
+      <input type="text" name="procesador" placeholder="i7-9400"><br>
+      <label for="ram">Memoria RAM</label><br>
+      <select name="ram">
+        <option>Seleccioná una opción</option>
+        <option>2 GB</option>
+        <option>4 GB</option>
+        <option>8 GB</option>
+        <option>16 GB</option>
+        <option>32 GB o más</option>
+      </select><br>
+      <label for="almacenamiento">Tipo de almacenamiento</label><br>
+      <select name="almacenamiento">
+        <option>Seleccioná una opción</option>
+        <option>HDD</option>
+        <option>SSD</option>
+      </select><br>
+      <label for="sistemaop">Sistema operativo</label><br>
+      <select name="sistemaop">
+        <option>Seleccioná una opción</option>
+        <option>Windows</option>
+        <option>Linux</option>
+        <option>macOS</option>
+        <option>Sin sistema operativo</option>
+      </select><br>
+      <label for="estado">Estado general del equipo</label><br>
+      <select name="estado">
+        <option>Seleccioná una opción</option>
+        <option>Bueno</option>
+        <option>Regular</option>
+        <option>Malo</option>
+        <option>Fuera de servicio</option>
+      </select><br>
+
+      <h3>Observaciones</h3>
+      <label for="observaciones">Observaciones adicionales</label><br>
+      <textarea name="observaciones" rows="6" placeholder=">Escribe aquí cualquier observación sobre el equipo..."></textarea>
+      <br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Borrar</button>
+    </form>
+  </section>
+</main>
