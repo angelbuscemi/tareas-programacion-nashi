@@ -1,0 +1,81 @@
+//ejer1
+let edad = parseInt(prompt("Por favor, ingresá tu edad:"));
+if (edad >= 18) {
+
+    alert("vienvenido al juego");
+
+} else if (edad >= 13 && edad <= 17) {
+
+    alert("podes jugar con tus papas al lado");
+
+} else {
+
+    alert("anda a tomar la leche pibe");}
+
+
+//ejer2
+let elpepe = parseFloat(prompt("ingresa el primer número:"));
+let nashe = parseFloat(prompt("ingresa el segundo número:"));
+let calculo = prompt("Ingresá la operación (+, -, *, /):");
+let resultadoCalculadora;
+switch (calculo) {
+    case "+":
+        resultadoCalculadora = elpepe + nashe;
+        print ("El resultado de la suma es: "(resultadoCalculadora));
+    case "-":
+        resultadoCalculadora = elpepe - nashe;
+        print ("El resultado de la resta es: " (resultadoCalculadora));
+    case "*":
+        resultadoCalculadora = elpepe * nashe;
+        print ("El resultado de la multiplicación es: " (resultadoCalculadora));
+    case "/":
+        if (nashe !== 0) {
+            resultadoCalculadora = elpepe / nashe;
+            print ("El resultado de la división es: "(esultadoCalculadora));
+        } else {
+            alert("Error: No se puede dividir por cero.");
+        }}
+
+
+//ejer3
+let calculodescuento = parseFloat(prompt("Ingresá el monto de compra: "));
+let precioFinal;
+if (isNaN(calculodescuento) || calculodescuento < 0) {
+    print ("Por favor, ingresá un monto válido.");    
+} else if (calculodescuento > 50000) {
+    precioFinal = calculodescuento * 0.80;
+    print ("Precio final con 20% de descuento: "(precioFinal));
+} else if (calculodescuento > 20000) {
+    precioFinal = calculodescuento * 0.90;
+    print ("Precio final con 10% de descuento: " (precioFinal));
+} else {
+    precioFinal = calculodescuento;
+    print ("Sin descuento. Precio final: " (precioFinal));
+}
+
+
+//ejer4
+let clasiftem = parseFloat(prompt("Ingresá la temperatura actual:"));
+if (isNaN(clasiftem)) {
+    print ("Por favor, ingresá un número válido.");
+} else if (clasiftem < 10) {
+    print ("ase frioh");
+} else if (clasiftem >= 10 && clasiftem <= 25) {
+    print ("Clima templado");
+} else {
+    alert("k calor oeo");
+}
+
+
+//ejer5
+let cajero = prompt("Cajero Automático: n1 → Consultar saldo | n2 → Retirar dinero | n3 → Depositar dinero");
+switch (cajero) {
+    case "1":
+        print("Elegiste la opción: Consultar saldo.");
+    case "2":
+        print("Elegiste la opción: Retirar dinero.");
+    case "3":
+        print("Elegiste la opción: Depositar dinero.");} 
+
+
+//Me resulto mas facil el primero y el segundo el mas dificil y creo que necesito repasar las propiedades de las variables porque tuve que buscar varias veces como se usaba prompt o parseInt a la hora de declarar.
