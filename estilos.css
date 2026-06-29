@@ -1,0 +1,53 @@
+body {
+    background-image: url(/home/elpepe/Downloads/file.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+ button{
+    background-color: rgb(0, 0, 0);
+    padding: 20px solid rgba(black);
+    color: peru;
+    :hover {
+        color: rgb(0, 173, 92);
+        background-color: brown;
+    }
+    
+}
+
+#elpepe12 {
+    margin-left: 100px;
+    background:radial-gradient(circle, yellow, red);
+    padding: 40px;
+    border: 50px solid rgb(232, 0, 223);
+    max-width:1000px;
+    text-align: center;
+    color: rgb(11, 46, 0)
+}
+
+#elpepe {
+  max-width: 300px;
+    margin-left: 100px;
+    border:30px solid rgba(43, 27, 27, 0.5);
+    padding: 20px;
+    background: rgba(67, 124, 98, 0.8);
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);  
+}
+
+form{
+    border: 3px solid rgb(5,23,23);
+    text-align: center;
+    background-color: rgb(61, 26, 65);
+}
+
+label {
+    background: radial-gradient(circle, #fff700 50%, #ff345f);
+
+}
+
+select {
+    background: radial-gradient(ellipse, blue, rgb(238, 255, 0));
+}
